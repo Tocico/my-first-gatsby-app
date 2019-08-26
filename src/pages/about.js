@@ -3,7 +3,6 @@ import Image from '../components/image'
 import Layout from "../components/layout"
 import { css } from "@emotion/core"
 
-
 export default ({filename}) => {
     const img = 'images/flowers.JPG'
     return(
