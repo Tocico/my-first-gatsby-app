@@ -11,9 +11,6 @@ const ListLink = props => (
   >
     <Link
       to={props.to}
-      css={css`
-        color: green;
-      `}
     >
       {props.children}
     </Link>
