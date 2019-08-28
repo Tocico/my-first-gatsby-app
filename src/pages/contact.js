@@ -1,10 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
 import { css } from "@emotion/core"
-import Image from "../components/image"
 
-export default ({ filename }) => {
-  const img = "images/kanellbulle.JPG"
+export default () => {
   return (
     <Layout>
       <div
@@ -13,14 +11,30 @@ export default ({ filename }) => {
           grid-template-columns: 1fr 1fr;
         `}
       >
-        <div css={css`width:100%; background-color: rgb(156, 148, 110); text-align:center;`}>
-          <h1 css={css`color:white; padding: 15%;`}>Email me at the address below</h1>
+        <div
+          css={css`
+            width: 100%;
+            background-color: rgb(156, 148, 110);
+            text-align: center;
+            height: 430px;
+          margin-top: 12%;
+          margin-left: 21%;
+          `}
+        >
+          <h1
+            css={css`
+              color: white;
+              padding: 15%;
+            `}
+          >
+            Email me at the address below
+          </h1>
           <div className="contact">
             <a href="mailto:info@toshikokuno.com">info@toshikokuno.com</a>
           </div>
         </div>
-        <div className='backgclr'>
-          <Image filename={img}/>
+        <div className="backgclr">
+          <img src="/images/kanellbulle.JPG" />
         </div>
       </div>
     </Layout>

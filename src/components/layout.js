@@ -2,7 +2,7 @@ import React from "react"
 import { css } from "@emotion/core"
 import { Link } from "gatsby"
 import { rhythm } from "../utils/typography"
-import logo from "../images/logo.png"
+// import logo from "./static/images/logo.png"
 import Navbar from './navbar'
 
 
@@ -17,7 +17,7 @@ export default ({ children }) => (
   >
     <Link to={`/`}>
       <img
-        src={logo}
+        src='/images/logo.png'
         alt="logo"
         css={css`
           max-width: 100px;
