@@ -23,7 +23,6 @@ export default class addPost extends React.Component {
             title: '',
             content: ''
         })
-
     }
     render() {
         return (
