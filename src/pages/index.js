@@ -6,15 +6,16 @@ import Loading from '../components/loading'
 export default () => {
   const [ spinner, setSpinner ] = useState(true);
   
-  
-    if(window.sessionStorage.getItem('access')){
-      setTimeout(() => setSpinner(false), 0)
-      console.log('second access');
-    } else {
-      console.log('first access');
+  const windowGlobal = typeof window !== 'undefined' && window;
+
+      if(windowGlobal.sessionStorage.getItem('access')){
+        setTimeout(() => setSpinner(false), 0)
+        console.log('second access');
+      } else {
+        console.log('first access');
         setTimeout(() => setSpinner(false), 3000)
-      window.sessionStorage.setItem('access', 0);
-    }
+        windowGlobal.sessionStorage.setItem('access', 0);
+      }
   
 
     return(
