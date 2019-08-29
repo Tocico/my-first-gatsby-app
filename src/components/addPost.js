@@ -21,7 +21,6 @@ export default class addPost extends React.Component {
         this.props.addPost(this.state);
         this.setState({
             title: '',
-            date: '',
             content: ''
         })
 
@@ -32,11 +31,11 @@ export default class addPost extends React.Component {
                 <form onSubmit={this.handleSubmit}>
                     <div>
                     <label htmlFor="title">Title</label>
-                    <input type="text" onChange={this.handleChange} id="title"></input>
+                    <input type="text" onChange={this.handleChange} id="title" value={this.state.title}></input>
                     </div>
                     <div>
                     <label htmlFor="content">Content</label>
-                    <textarea type="text" onChange={this.handleChange} id="content"></textarea>
+                    <textarea type="text" onChange={this.handleChange} id="content" value={this.state.content}></textarea>
                     </div>
                     <div>
                     <button className="post-btn">Post</button>

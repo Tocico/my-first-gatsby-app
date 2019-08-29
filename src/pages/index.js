@@ -15,10 +15,9 @@ export default () => {
           windowGlobal.sessionStorage.setItem('access', 0);
         }
         
-      }
-
-    return(
-      <div>
+        
+        return(
+          <div>
     {spinner? <Loading/>:
   <Layout>
     <div css={css`position:relative;`}>
@@ -34,4 +33,5 @@ export default () => {
      }
       </div>
     )
+  }
 }
