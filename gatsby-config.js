@@ -5,6 +5,10 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `Portfolio`,
+    author: `Toshiko Kuno`
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

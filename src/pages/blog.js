@@ -1,7 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
-import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 import AddPost from '../components/addPost'
 import Post from '../components/post'
@@ -36,7 +34,7 @@ state =
          <h1
            css={css`
              display: inline-block;
-             border-bottom: 1px solid;
+            
            `}
            >
            My Blog

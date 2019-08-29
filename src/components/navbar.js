@@ -27,6 +27,7 @@ export default () => (
     <ListLink to={"/about/"}>About</ListLink>
     <ListLink to={"/portfolio/"}>Porfolio</ListLink>
     <ListLink to={"/blog/"}>Blog</ListLink>
+    {/* <ListLink to={"/skills/"}>Skills</ListLink> */}
     <ListLink to={"/contact/"}>Contact</ListLink>
   </ul>
 )

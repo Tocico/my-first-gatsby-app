@@ -34,7 +34,7 @@ export default () => {
           </div>
         </div>
         <div className="backgclr">
-          <img src="/images/kanellbulle.JPG" />
+          <img src="/images/floweronbread.JPG" />
         </div>
       </div>
     </Layout>
