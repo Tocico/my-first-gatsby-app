@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import { rhythm } from "../utils/typography"
 import Navbar from './navbar'
 
-
 export default ({ children }) => (
   <div
     css={css`
