@@ -5,10 +5,15 @@ import Loading from '../components/loading'
 
 export default () => {
   const [ spinner, setSpinner ] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => setSpinner(false), 3000)
-  }, []);
+    if(sessionStorage.getItem('access')){
+      setTimeout(() => setSpinner(false), 0)
+      console.log('second access');
+    } else {
+      console.log('first access');
+        setTimeout(() => setSpinner(false), 3000)
+      sessionStorage.setItem('access', 0);
+    }
+  
 
     return(
       <div>

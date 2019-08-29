@@ -1,14 +1,15 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
 
 
-const Post = ({blog}) =>{
-   const blogList = blog.map((post,key)=>{
+
+
+const Post = ({blog, deletePost}) =>{
+   const blogList = blog.map((post)=>{
        return (
            <div
-              key={key}
+              key={post.id}
             >
             <h3
               css={css`
@@ -26,6 +27,7 @@ const Post = ({blog}) =>{
               </span>
             </h3>
             <p>{post.content}</p>
+            <button onClick={()=>{deletePost(post.id)}} css={css`padding:0.5%; margin-left:30%; font-size:0.8em; background-color:#c78484ad; color: white;`}>Delete</button>
             </div>
        )
        })
