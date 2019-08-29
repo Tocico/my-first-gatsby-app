@@ -7,7 +7,7 @@ export default () => {
   const [ spinner, setSpinner ] = useState(true);
   
   const windowGlobal = typeof window !== 'undefined' && window;
-     if(windowGlobal){
+    //  if(windowGlobal){
        if(windowGlobal.sessionStorage.getItem('access')){
          setTimeout(() => setSpinner(false), 0)
         } else {
@@ -34,4 +34,4 @@ export default () => {
       </div>
     )
   }
-}
+// }
