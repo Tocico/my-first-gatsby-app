@@ -12,7 +12,6 @@ state =
     {title:'Food', date:'2019-08-25', content:'I love to eat a food', id:2}
   ]
 }
-    
     addPost = (post)=>{
       post.id = Math.random();
       let blogs = [...this.state.blog,post];
@@ -34,7 +33,6 @@ state =
          <h1
            css={css`
              display: inline-block;
-            
            `}
            >
            My Blog
