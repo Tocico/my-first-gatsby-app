@@ -18,6 +18,8 @@
     "@fortawesome/free-solid-svg-icons": "^5.10.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "chart.js": "^2.8.0",
+    "chartjs-plugin-datalabels": "^0.6.0",
+    "chartjs-plugin-deferred": "^1.0.1",
     "gatsby": "^2.13.73",
     "gatsby-image": "^2.2.14",
     "gatsby-plugin-emotion": "^4.1.4",

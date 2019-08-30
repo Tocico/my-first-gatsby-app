@@ -23,11 +23,11 @@ export default () => (
       float: right;
     `}
   >
-    <ListLink to={"/"}>Home</ListLink>
-    <ListLink to={"/about/"}>About</ListLink>
-    <ListLink to={"/portfolio/"}>Porfolio</ListLink>
-    <ListLink to={"/blog/"}>Blog</ListLink>
-    {/* <ListLink to={"/skills/"}>Skills</ListLink> */}
-    <ListLink to={"/contact/"}>Contact</ListLink>
+    <ListLink className="nav__name" to={"/"}>Home</ListLink>
+    <ListLink className="nav__name" to={"/about/"}>About</ListLink>
+    <ListLink className="nav__name" to={"/portfolio/"}>Porfolio</ListLink>
+    <ListLink className="nav__name" to={"/blog/"}>Blog</ListLink>
+    <ListLink className="nav__name" to={"/skills/"}>Skills</ListLink>
+    <ListLink className="nav__name" to={"/contact/"}>Contact</ListLink>
   </ul>
 )

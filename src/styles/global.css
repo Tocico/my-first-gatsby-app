@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant|Playfair+Display+SC&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
 
 *{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant Garamond', serif;
 }
 html{
   background-color: rgb(243, 243, 245);
 }
-h1, h2, h3{
+h1, h2, h3,li *:last-child{
   font-family: 'Playfair Display SC', serif;
 }
 li *:last-child{
@@ -182,6 +183,32 @@ textarea{
    margin: 8% auto;
 
 }
+
+/* charts */
+.doughnut{
+  display: flex;
+  width:25%; 
+  margin: 8% 0;
+}
+.doughnut--chart{
+  position: relative;
+}
+.doughnut__name{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+}
+
+
 
 
 
