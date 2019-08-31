@@ -11,13 +11,6 @@ html{
 h1, h2, h3,li *:last-child{
   font-family: 'Playfair Display SC', serif;
 }
-li *:last-child{
-  text-decoration: none;
-  color: rgb(190, 118, 147);
-}
-li *:last-child:hover{
-  border-bottom: 1px solid rgb(65, 59, 62);
-}
 img{
   width: 100%;
 }
@@ -207,6 +200,8 @@ textarea{
   font-family: 'Cormorant Garamond', serif;
   font-weight: bold;
 }
+
+
 
 
 
