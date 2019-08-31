@@ -16,7 +16,6 @@ img{
 }
 .contact{
     font-family: 'Cormorant', serif;
-    background: rgb(156, 148, 110);
     padding: 2%;
     width: 300px;
     font-size: 1.3em;
@@ -106,7 +105,7 @@ textarea{
     height: 300px;
 }
 .post-btn{
-  background-color:rgb(199, 174, 119);
+  background-color:#7c9fbd;
   color: white;
   padding: 1% 3%;
 }

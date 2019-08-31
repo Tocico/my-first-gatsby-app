@@ -14,7 +14,7 @@ export default () => {
         <div
           css={css`
             width: 100%;
-            background-color: rgb(156, 148, 110);
+            background-color: rgb(128,155,155);
             text-align: center;
             height: 430px;
           margin-top: 12%;
