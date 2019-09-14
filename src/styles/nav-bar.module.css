@@ -23,7 +23,7 @@
     opacity: 1;
   }
   
-  :global .menu-trigger {
+  .menuTrigger {
     display: inline-block;
     width: 36px;
     height: 28px;
@@ -38,7 +38,7 @@
     margin: 2%;
    }
   
-   :global .menu-trigger span {
+   .menuTrigger span {
     display: inline-block;
     box-sizing: border-box;
     position: absolute;
@@ -47,37 +47,38 @@
     height: 1px;
     background-color: #000;
   }
- .menu-trigger.active span {
+ .menuTrigger.active span {
     background-color: #fff;
   }
-  :global .menu-trigger span:nth-of-type(1) {
+
+  .menuTrigger span:nth-of-type(1) {
     top: 0;
     width: 15px;
   }
   
-  :global .menu-trigger span:nth-of-type(2) {
+  .menuTrigger span:nth-of-type(2) {
     top: 12.5px;
     width: 25px;
   }
   
-  :global .menu-trigger span:nth-of-type(3) {
+  .menuTrigger span:nth-of-type(3) {
     bottom: 0;
   }
   
   
-  .menu-trigger.active span:nth-of-type(1),
-  .menu-trigger.active span:nth-of-type(3) {
+  .menuTrigger.active span:nth-of-type(1),
+  .menuTrigger.active span:nth-of-type(3) {
   width: 20px;
   }
   
-  .menu-trigger.active span:nth-of-type(2) {
+  .menuTrigger.active span:nth-of-type(2) {
     width: 40px;
   }
-  .menu-trigger.active span:nth-of-type(1) {
+  .menuTrigger.active span:nth-of-type(1) {
   -webkit-transform: translate(-1px,13px) rotate(-45deg);
   transform: translate(-4px,6px) rotate(-45deg);
   }
-  .menu-trigger.active span:nth-of-type(3) {
+  .menuTrigger.active span:nth-of-type(3) {
   -webkit-transform: translate(-1px,-13px) rotate(45deg);
   transform: translate(-3px,-7px) rotate(45deg);
   }

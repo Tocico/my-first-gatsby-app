@@ -31,10 +31,10 @@ export default class Navbar extends React.Component{
   return(
   <div className="wrapper">
 
-    <div className={`${'menu-trigger'} ${triggerActive}`} onClick={this.toggleMenu}>
-        <span ></span>
-        <span ></span>
-        <span ></span>
+    <div className={`${styles.menuTrigger} ${triggerActive} ${arrowActive}`} onClick={this.toggleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
     </div>
     <nav className={`${menuActive}`}>
   <ul>
