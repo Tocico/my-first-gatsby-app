@@ -20,7 +20,7 @@
     "chart.js": "^2.8.0",
     "chartjs-plugin-datalabels": "^0.6.0",
     "chartjs-plugin-deferred": "^1.0.1",
-    "gatsby": "^2.13.73",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.2.14",
     "gatsby-plugin-emotion": "^4.1.4",
     "gatsby-plugin-google-analytics": "^2.1.12",
